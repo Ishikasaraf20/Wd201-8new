@@ -1,3 +1,12 @@
+/*
+! tailwindcss v3.2.0 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
 *,
 ::before,
 ::after {
@@ -7,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #dee2e9;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -39,7 +48,10 @@ html {
   /* 4 */
 }
 
-
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
 
 body {
   margin: 0;
@@ -48,6 +60,11 @@ body {
   /* 2 */
 }
 
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
 
 hr {
   height: 0;
@@ -58,7 +75,9 @@ hr {
   /* 3 */
 }
 
-
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
@@ -141,6 +160,11 @@ sup {
   top: -0.5em;
 }
 
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
 
 table {
   text-indent: 0;
@@ -151,7 +175,11 @@ table {
   /* 3 */
 }
 
-
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
 
 button,
 input,
@@ -174,7 +202,9 @@ textarea {
   /* 3 */
 }
 
-
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
 
 button,
 select {
@@ -231,7 +261,10 @@ Correct the cursor style of increment and decrement buttons in Safari.
   height: auto;
 }
 
-
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
 
 [type="search"] {
   -webkit-appearance: textfield;
@@ -322,7 +355,7 @@ input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
-  color: #7a7d83;
+  color: #2c2f33;
   /* 2 */
 }
 
@@ -330,7 +363,7 @@ input::placeholder,
 textarea::placeholder {
   opacity: 1;
   /* 1 */
-  color: #424549;
+  color: #3b3b3d;
   /* 2 */
 }
 
@@ -411,7 +444,7 @@ video {
   --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(0, 91, 237, 0.5);
+  --tw-ring-color: rgba(0, 96, 251, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -505,7 +538,7 @@ video {
   --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(0, 97, 253, 0.5);
+  --tw-ring-color: rgba(0, 98, 255, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -786,10 +819,10 @@ video {
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
     0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 rgba(207, 68, 68, 0)), var(--tw-shadow);
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:shadow-slate-100:hover {
-  --tw-shadow-color: #f1f5f9;
+  --tw-shadow-color: #c9d4df;
   --tw-shadow: var(--tw-shadow-colored);
 }
